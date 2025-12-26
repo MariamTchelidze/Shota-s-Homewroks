@@ -120,7 +120,7 @@ header nav {
   align-items: center;
   gap: 2rem;
 }
-header nav a:hover {
+a:hover {
   color: white;
   transition: all 0.3s ease;
 }
