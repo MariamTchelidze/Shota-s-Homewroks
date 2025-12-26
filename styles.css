@@ -120,6 +120,10 @@ header nav {
   align-items: center;
   gap: 2rem;
 }
+a {
+  color: purple;
+  text-decoration: none;
+}
 a:hover {
   color: white;
   transition: all 0.3s ease;
@@ -165,10 +169,6 @@ h3:hover {
   justify-content: center;
   align-items: center;
   border: 1px solid purple;
-}
-a {
-  color: purple;
-  text-decoration: none;
 }
 span {
   padding: 10px;
