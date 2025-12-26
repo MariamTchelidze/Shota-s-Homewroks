@@ -37,6 +37,7 @@ td {
 
 tr:hover {
   background-color: #1e2329;
+  transition: all 0.3s ease;
 }
 
 /* ფერები ცვლილებისთვის */
