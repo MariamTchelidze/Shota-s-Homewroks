@@ -1,0 +1,188 @@
+/* ძირითადი სტილები */
+body {
+  background-color: #0b0e11;
+  color: #eaecef;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column; /* I have added this style to make  the layout in cloumn */
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 50px;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Headings */
+th {
+  text-align: left;
+  color: #848e9c;
+  font-size: 14px;
+  padding: 12px 8px;
+  border-bottom: 1px solid #2b2f36;
+}
+
+/* Rows & Cells */
+td {
+  padding: 16px 8px;
+  border-bottom: 1px solid #2b2f36;
+  font-size: 14px;
+}
+
+tr:hover {
+  background-color: #1e2329;
+}
+
+/* ფერები ცვლილებისთვის */
+.negative {
+  color: #f6465d;
+}
+tr {
+  border-bottom: #2b2f36;
+  transition: all 0.3s ease;
+}
+tr:hover {
+  background-color: #1e2329;
+}
+.positive {
+  color: #0ecb81;
+}
+
+/* მონეტების აიკონების იმიტაცია */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btc {
+  background-color: #f3ba2f;
+  color: black;
+}
+.eth {
+  background-color: #627eea;
+  color: white;
+}
+.usdt {
+  background-color: #26a17b;
+  color: white;
+}
+.usdc {
+  background-color: #2775ca;
+  color: white;
+}
+.sol {
+  background-color: #00ffa3;
+  color: black;
+}
+.trx {
+  background-color: #ef0027;
+  color: white;
+}
+
+.actions {
+  color: #848e9c;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+strong {
+  color: #ffffff;
+}
+
+/* I have added this style for code to make  the layout in cloumn */
+h1 {
+  text-align: center; /* I have added this style to make  h1 in center */
+}
+
+/* I have added this style for header to make  the layout in cloumn */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+header nav a:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+#stats {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#stats .stats-div {
+  width: 100%;
+  border: 1px solid purple;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#stats .stats-div ul,
+ol,
+dl {
+  padding: 25px;
+  border: 1px solid green;
+}
+h3 {
+  text-decoration: underline;
+}
+h3:hover {
+  color: purple;
+  transition: all 0.3s ease;
+}
+#evidence {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframe {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid purple;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+span {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+/* tbody tr .name-td span {
+  margin-right: 1rem;
+} */
+@media (max-width: 925px) {
+  .stats-div {
+    flex-wrap: wrap;
+  }
+}
